@@ -1,0 +1,54 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Exercism-specific files
+.exercism/
+.exercism/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.manifest
+*.spec
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.tox/
+.venv/
+venv/
+env/
+*.ipynb_checkpoints
+
+# Poetry
+.poetry/
+poetry.lock
+
+# Virtualenv
+Pipfile
+Pipfile.lock
+
+# Go
+/bin/
+pkg/
+*.exe
+*.test
+*.out
+*.log
+*.a
+*.o
+*.swp
+
+# Go modules
+go.sum
+go.mod
+vendor/
