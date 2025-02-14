@@ -52,3 +52,4 @@ pkg/
 go.sum
 go.mod
 vendor/
+.vscode/
